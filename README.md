@@ -16,7 +16,7 @@ This is an unofficial but pretty good US (east) mirror for npm; this service is 
         npm install forever --registry https://registry.npmjs.us/public
 
 ### Modus Operandi
-We continuously replicate the official npmjs database. It is large (>200GB) so
+We continuously replicate the official npmjs database. It is large (>100GB) so
 updates to public npm modules may take some minutes to show up in our registry.
 The public database is read-only, so do not try to publish to it. In the event
 of failure to resolve a module, the server will failover to the official npm
