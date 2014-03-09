@@ -1,6 +1,6 @@
 ### npmjs.us
 
-This is an unofficial but pretty good US (east) mirror for npm; this service is sponsored and maintained by [norfolkjs.org](norfolkjs.org).
+This is an unofficial but pretty good US (east) mirror for npm; this service is sponsored and maintained by [norfolkjs.org](http://norfolkjs.org).
 
 ### Using this service
 - Option 1: Add this registry to your `.npmrc`. e.g.
@@ -24,7 +24,7 @@ service. This service is SSL-secured and monitored by pingdom.
 
 ### Issues?
 If you have questions, comments, or notice issues with this service, please file
-an issue here: <https://github.com/norfolkjs/npmjs.us>.
+an issue here: <https://github.com/norfolkjs/npmjs.us/issues>.
 
 
 1CTs5sGpaXNhvjL5B4my1EmHLoK5TPqrPT
