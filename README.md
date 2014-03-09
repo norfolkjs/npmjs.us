@@ -11,7 +11,7 @@ This is an unofficial but pretty good US (east) mirror for npm; this service is 
 
         npm config set registry=https://registry.npmjs.us
 
-- Option 2: Add it as a command-line argument
+- Option 3: Add it as a command-line argument
 
         npm install forever --registry https://registry.npmjs.us
 
