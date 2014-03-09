@@ -5,15 +5,15 @@ This is an unofficial but pretty good US (east) mirror for npm; this service is 
 ### Using this service
 - Option 1: Add this registry to your `.npmrc`. e.g.
 
-        registry = https://registry.npmjs.us
+        registry = https://registry.npmjs.us/public
 
 - Option 2: Set the registry config via `npm`
 
-        npm config set registry=https://registry.npmjs.us
+        npm config set registry=https://registry.npmjs.us/public
 
 - Option 3: Add it as a command-line argument
 
-        npm install forever --registry https://registry.npmjs.us
+        npm install forever --registry https://registry.npmjs.us/public
 
 ### Modus Operandi
 We continuously replicate the official npmjs database. It is large (>100GB) so
