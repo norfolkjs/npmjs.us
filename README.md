@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/norfolkjs/npmjs.us.svg)](https://travis-ci.org/norfolkjs/npmjs.us)
 
+
 This is an unofficial but pretty good US (east) mirror for npm; this service is sponsored and maintained by [norfolkjs.org](http://norfolkjs.org).
 
 ### 1. Use the npmjs.us mirror!
@@ -25,4 +26,5 @@ official npm service. This service is SSL-secured and monitored.
 If you have questions, comments, or notice issues with this service, please file
 an issue here: <https://github.com/norfolkjs/npmjs.us/issues>.
 
-1CTs5sGpaXNhvjL5B4my1EmHLoK5TPqrPT
+### 4. Because, gigabytes
+[![Donate](http://gravaco.in/btc/336a6efc3cfba869194c29a9e37883e6.png)](http://gravaco.in/336a6efc3cfba869194c29a9e37883e6)
