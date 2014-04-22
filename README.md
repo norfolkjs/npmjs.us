@@ -27,4 +27,4 @@ If you have questions, comments, or notice issues with this service, please file
 an issue here: <https://github.com/norfolkjs/npmjs.us/issues>.
 
 ### 4. Because, gigabytes
-[![Donate](http://gravaco.in/btc/336a6efc3cfba869194c29a9e37883e6.png)](http://gravaco.in/336a6efc3cfba869194c29a9e37883e6)
+[![Donate](http://gravaco.in/btc/6cb229837bbccd26096c77eaf2878d52.png)](http://gravaco.in/6cb229837bbccd26096c77eaf2878d52)
