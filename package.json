@@ -1,6 +1,6 @@
 {
   "name": "npmjs.us",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Unofficial but pretty good US (east) mirror for npm; sponsored and maintained by norfolkjs.org",
   "main": "index.js",
   "scripts": {
