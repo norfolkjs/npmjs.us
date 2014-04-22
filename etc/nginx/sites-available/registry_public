@@ -24,6 +24,12 @@ server {
   ssl_prefer_server_ciphers on;
 
   location / {
+    location /_utils {
+      auth_basic "Restricted";
+      auth_basic_user_file /etc/nginx/.htpasswd;
+      proxy_pass http://127.0.0.1:5984;
+    }
+
     location /public {
 
       # re-write npmjs.org tarball urls
