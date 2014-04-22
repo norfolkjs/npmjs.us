@@ -35,8 +35,10 @@ server {
         proxy_cache_valid 404 1m;
       }
 
-      rewrite ^/public/(.*)$ /public/_design/app/_rewrite/$1 break;
-      proxy_pass http://127.0.0.1:5984;
+      # proxy to the view (see: https://github.com/npm/npm-registry-couchapp/issues/87#issuecomment-11673038)
+      proxy_redirect off;
+      proxy_set_header Host $host;
+      proxy_pass http://127.0.0.1:5984/public/_design/app/_rewrite;
 
       # transform tarball url in json object
       sub_filter_types application/json text/plain;
