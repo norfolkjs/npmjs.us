@@ -1,0 +1,35 @@
+{
+  "name": "npmjs.us",
+  "version": "0.0.0",
+  "description": "Unofficial but pretty good US (east) mirror for npm; sponsored and maintained by norfolkjs.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/norfolkjs/npmjs.us.git"
+  },
+  "keywords": [
+    "npm",
+    "npmjs",
+    "npmjs.us",
+    "norfolkjs",
+    "mirror",
+    "registry"
+  ],
+  "author": "Travis Webb <me@traviswebb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/norfolkjs/npmjs.us/issues"
+  },
+  "homepage": "https://github.com/norfolkjs/npmjs.us",
+  "dependencies": {
+    "home-dir": "^0.1.2"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2"
+  }
+}
