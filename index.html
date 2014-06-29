@@ -34,7 +34,7 @@
         <h3>
 <a name="npmjsus" class="anchor" href="#npmjsus"><span class="octicon octicon-link"></span></a>npmjs.us</h3>
 
-<p>This is an unofficial but pretty good US (east) mirror for npm; this service is sponsored and maintained by <a href="norfolkjs.org">norfolkjs.org</a>.</p>
+<p>This is an unofficial but pretty good US (east) npm mirror. This service is sponsored and maintained by <a href="norfolkjs.org">norfolkjs.org</a>.</p>
 
 <h3>
 <a name="using-this-service" class="anchor" href="#using-this-service"><span class="octicon octicon-link"></span></a>Using this service</h3>
@@ -55,17 +55,17 @@
 <li>
 <p>Option 2: Add it as a command-line argument</p>
 
-<pre><code>npm install forever --registry https://registry.npmjs.us/public
+<pre><code>npm install &lt;module&gt; --registry https://registry.npmjs.us/public
 </code></pre>
 </li>
 </ul><h3>
 <a name="modus-operandi" class="anchor" href="#modus-operandi"><span class="octicon octicon-link"></span></a>Modus Operandi</h3>
 
-<p>We continuously replicate the official npmjs database. It is large (&gt;200GB) so
-updates to public npm modules may take some minutes to show up in our registry.
+<p>We continuously replicate the official npmjs database. It is large, so updates 
+to public npm modules may take some minutes to show up in our registry.
 The public database is read-only, so do not try to publish to it. In the event
 of failure to resolve a module, the server will failover to the official npm
-service. This service is SSL-secured and monitored by pingdom.</p>
+service. This service is SSL-secured and monitored.</p>
 
 <h3>
 <a name="issues" class="anchor" href="#issues"><span class="octicon octicon-link"></span></a>Issues?</h3>
